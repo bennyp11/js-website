@@ -1,0 +1,85 @@
+body,
+html {
+width: 100%;
+height:100%;
+font-family: 'Permanent Marker', cursive;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+h1 {
+font-size: 80px;
+}
+
+h2 {
+font-size: 60px;
+}
+
+hr {
+border-color: #000067ff;
+border-width: 7px;
+max-width: 140px;
+}
+
+.btn {
+font-weight: 700;
+border-radius: 200px;
+}
+
+.btn-xl {
+padding: 0px 80px;
+font-size: 60px;
+max-height: 140px;
+}
+
+.btn-primary {
+background-color: #000067ff;
+border-color: #000067ff;
+}
+
+.container {
+margin-top: 70px;
+display: block;
+flex-wrap: wrap;
+justify-content: center;
+line-height: 80px;
+text-align: center;
+width: 900px;
+font-size: 80px;
+}
+
+.logo {
+display: block;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+width: 400px;
+height: 250px;
+}
+
+.containhomebutton {
+display: block;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 10px;
+text-align: center;
+font-family: sans-serif;
+}
+
+#hit {
+transition: all 1s ease-in-out;
+}
+
+#ykywt {
+transition: all 1s ease-in-out;
+}
+
+#hit:hover {
+transform: scale(1.6);
+}
+
+#ykywt:hover {
+transform: scale(1.4);
+}
