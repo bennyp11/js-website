@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hit Reply All</title>
-<!-- Bootstrap CSS from a CDN. -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<!--My stylesheet-->
-<link rel="stylesheet" type="text/css" href="style.css">
-<!--Calling Google Fonts for Slabo 27px-->
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Nation</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-	<h1 id="hit">HIT REPLY ALL.</h1><br/>
-	<h2 id="ykywt">YOU KNOW YOU WANT TO.</h2><br/>
-</div>
-<!-- The <a> tag within this div links my button to my mailchimp newsletter sign up -->
-<div class="containhomebutton">
-	<a href="http://eepurl.com/hdpj7n"><button type="button" class="btn btn-primary btn-xl"><strong>REPLY ALL</strong></button></a>
-</div>
-<hr>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+  <!-- Sections -->
+  <div class="overlay overlay-slide-left" id="overlay">
+    <!--Menu items-->
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
+        <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
+        <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
+        <li id="nav-4" class="slide-out-4"><a href="#projects">Projects</a></li>
+        <li id="nav-5" class="slide-out-5"><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-bars" id="menu-bars">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <section id="home"><a href="https://bennyp.design" target="_blank" id="title">Benny P Design</a></section>
+  <section id="about"><h1>Learn More About Me</h1></section>
+  <section id="skills"><h1>These Are My Strengths</h1></section>
+  <section id="projects"><h1>These Are My Results</h1></section>
+  <section id="contact"><h1>Available Anytime</h1></section>
+  <!-- Script -->
+  <script src="script.js"></script>
 </body>
 </html>
